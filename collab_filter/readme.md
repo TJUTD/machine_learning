@@ -7,7 +7,7 @@ Version: Python 3.6.0
 Command to run on terminal:
 
 ```html
-python collab_filter.py --path <directory contains Trainingratings.txt and Testingratings.txt > --method <'all'(default), 'cor', 'sim'> --savecsv <'y', 'n'(default)>
+python collab_filter.py --path <dataset directory containing Trainingratings.txt and Testingratings.txt > --method <'all'(default), 'cor', 'sim'> --savecsv <'y', 'n'(default)>
 ```
 
 If `savecsv == 'y'`,  weighting matrices csv files will be generated in the data directory 

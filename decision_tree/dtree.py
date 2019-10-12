@@ -607,31 +607,7 @@ def main(args):
 	validateDataFrame = pd.read_csv(valid_file,header = None)
 	validateDataFrame.columns = ['X' + str(i) for i in range(1,validateDataFrame.shape[1])] + ['Y']
 	
-		
-	if args.method == 'rf' :
-		from sklearn.ensemble import RandomForestClassifier
-	
-		# Create a Gaussian Classifier
-		clf=RandomForestClassifier()
-		
-		ncol = trainDataFrame.shape[1] 
-		x_train = trainDataFrame.iloc[:,list(range(0,ncol-2))] 
-		y_train = trainDataFrame.iloc[:,ncol-1] 
-		x_test = testDataFrame.iloc[:,list(range(0,ncol-2))] 
-		y_test = testDataFrame.iloc[:,ncol-1] 
-		
-		# Train the model using the training sets y_pred=clf.predict(X_test)
-		clf.fit(x_train, y_train)
-
-		# prediction on test set
-		y_pred=clf.predict(x_test)
-
-		# Import scikit-learn metrics module for accuracy calculation
-		from sklearn import metrics
-		print(' Accuracy of Random Forest for data sets c = ', args.clause, ' d = ', args.dim, ': ', metrics.accuracy_score(y_test, y_pred))
-	
-	else:
-		dtree_learner(args.clause, args.dim, args.impurity, args.prune, trainDataFrame, testDataFrame, validateDataFrame)
+	dtree_learner(args.clause, args.dim, args.impurity, args.prune, trainDataFrame, testDataFrame, validateDataFrame)
 		
 
 	
@@ -640,7 +616,6 @@ if __name__ == '__main__' :
 	parser.add_argument('--data_dir', type = str, default = './all_data', help = 'path to the data sets')
 	parser.add_argument('--clause', type = int, default = 300, help = 'number of clauses')
 	parser.add_argument('--dim', type=int, default = 100, help='number of positive or negative examples ')
-	parser.add_argument('--method', choices=['dt', 'rf'], default="dt", help="decision tree or random forest")
 	parser.add_argument('--impurity', choices=['en', 'va'], default="en", help='impurity heuristic: entropy or variance')
 	parser.add_argument('--prune', choices=['no', 're', 'db'], default="no", help='pruning method: none, reduced-error, depth-based')
 	

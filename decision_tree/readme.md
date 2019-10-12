@@ -16,4 +16,4 @@ Compute accuracy of learned function on test set
 - `prune == 're'` reduced error pruning implemented by bottom-up verification
 - `prune == 'db'` depth-based pruning implemented by maximal depth constraint
 
-__Note__: data set file names are in the forms `train_c*_d*.csv`, `valid_c*_d*.csv`, and `test_c*_d*.csv` for `c in [300, 500, 1000, 1500, 1800]` clauses and `d = [100, 1000, 5000]` postive/negative pairs.
+__Note__: data set file names are in the forms `train_c*_d*.csv`, `valid_c*_d*.csv`, and `test_c*_d*.csv` for `c in [300, 500, 1000, 1500, 1800]` clauses and `d in [100, 1000, 5000]` postive/negative pairs.

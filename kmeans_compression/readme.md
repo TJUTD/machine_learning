@@ -21,24 +21,24 @@ Result:
 
 Original picture
 
-![koala](./img/koala.jpg | width = 80)
+![koala](./img/koala.jpg){:height="50%" width="50%"}
 
 `K = 2`
 
-![koala_k_2](./img/koala_k_2.JPG | width = 80)
+![koala_k_2](./img/koala_k_2.JPG){:height="50%" width="50%"}
 
 `K = 5`
 
-![koala_k_5](./img/koala_k_5.JPG | width = 80)
+![koala_k_5](./img/koala_k_5.JPG){:height="50%" width="50%"}
 
 `K = 10`
 
-![koala_k_10](./img/koala_k_10.JPG | width = 80)
+![koala_k_10](./img/koala_k_10.JPG){:height="50%" width="50%"}
 
 `K = 15`
 
-![koala_k_15](./img/koala_k_15.JPG | width = 80)
+![koala_k_15](./img/koala_k_15.JPG){:height="50%" width="50%"}
 
 `K = 20`
 
-![koala_k_20](./img/koala_k_20.JPG | width = 80)
+![koala_k_20](./img/koala_k_20.JPG){:height="50%" width="50%"}

@@ -21,25 +21,25 @@ Result:
 
 Original picture
 
-![koala](./img/koala.jpg)<!-- .element height="50%" width="50%" -->
+![koala](./img/koala.jpg)
 
 `K = 2`
 
-![koala_k_2](./img/koala_k_2.JPG)<!-- .element height="60%" width="60%" -->
+![koala_k_2](./img/koala_k_2.JPG)
 
 `K = 5`
 
-![koala_k_5](./img/koala_k_5.JPG)<!-- .element height="70%" width="70%" -->
+![koala_k_5](./img/koala_k_5.JPG)
 
 `K = 10`
 
-![koala_k_10](./img/koala_k_10.JPG)<!-- .element height="80%" width="80%" -->
+![koala_k_10](./img/koala_k_10.JPG)
 
 
 `K = 15`
 
-![koala_k_15](./img/koala_k_15.JPG)<!-- .element height="90%" width="90%" -->
+![koala_k_15](./img/koala_k_15.JPG)
 
 `K = 20`
 
-![koala_k_20](./img/koala_k_20.JPG)<!-- .element height="50%" width="50%" -->
+![koala_k_20](./img/koala_k_20.JPG)

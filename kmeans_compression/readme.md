@@ -25,20 +25,20 @@ Original picture
 
 `K = 2`
 
-![koala_k_2](./img/koala_k_2.jpg)
+![koala2](./img/koala2.jpg)
 
 `K = 5`
 
-![koala_k_5](./img/koala_k_5.jpg)
+![koala5](./img/koala5.jpg)
 
 `K = 10`
 
-![koala_k_10](./img/koala_k_10.jpg)
+![koala10](./img/koala10.jpg)
 
 `K = 15`
 
-![koala_k_15](./img/koala_k_15.jpg)
+![koala15](./img/koala15.jpg)
 
 `K = 20`
 
-![koala_k_20](./img/koala_k_20.jpg)
+![koala20](./img/koala20.jpg)

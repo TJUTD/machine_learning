@@ -21,6 +21,6 @@ python bayesian_networks.py --path <dataset direcotry containing ***.ts.data, **
 Result:
 
 - According to Test-set log-likelihood score, Mixtures of Tree Bayesian networks using EM algorithm gave the best performance.
-- The bagging approach underperformed the simple Chow-Liu tree model. It seems to support the statement that bagging helps unstable procedures, but could hurt the performance of stable procedures. The standard deviation of replicates of the random algorithm is relatively small.
+- The bagging approach underperformed the simple Chow-Liu tree model. It seems to support the statement that bagging helps unstable procedures, but could hurt the performance of stable procedures. Here, the standard deviation of replicates of the random algorithm is relatively small.
 
 __Note__: For the initialization of EM approach, randomly choosing tree structure and then calculating parameters by M-step seems to be robust. Randomly assigning CPT on the tree may fail for data set with large number of features.
